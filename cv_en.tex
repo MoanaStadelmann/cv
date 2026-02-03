@@ -23,7 +23,6 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
@@ -40,7 +39,6 @@
   \vspace{-4pt}\centering
 }{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
 
-
 \pdfgentounicode=1
 
 \newcommand{\resumeItem}[1]{
@@ -53,21 +51,7 @@
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -82,77 +66,104 @@
 
 \begin{document}
 
-
-
 \begin{center}
-    {\large Example Example} \\ \vspace{-2pt}
-    \begin{multicols}{2}
-    \begin{flushleft}
-    \href{{your github page link}}{https://github.com/}\\
-    \href{{your linkedin page link}}{https://linkedin.com/in/}
-    \end{flushleft}
-
-    \begin{flushright}
-    \href{{your personal websit link}}{https://example.com}\\
-    \href{mailto:{your email adress}}{example@example.com}
-    \end{flushright}
-    \end{multicols}
+    {\large Moana Stadelmann} \\ 
+    \vspace{2mm}
+    moana.stadelmann@uzh.ch \space\space\space|\space\space\space
+    \href{https://github.com/MoanaStadelmann}{GitHub} \space\space\space|\space\space\space
+    \href{https://www.linkedin.com/in/moanastadelmann}{LinkedIn}
 \end{center}
-\vspace{-15pt}
+
 %-----------EXPERIENCE-----------
 \section{Experience}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Random Company, Software Development Intern}{February 2021 - April 2021}
-      {Company Name Here}{Location, WA}
-      \resumeItemListStart
-        \resumeItem{Did something cool.}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Intern in Data Analytics}{July 2025 -- September 2025}
+    {Statistik Aargau -- Department of Finance and Resources}{Aargau, CH}
+    \resumeItemListStart
+      \resumeItem{Refined and developed approaches for the systematic and automated plausibility checks of election results; contributed to optimizing the filing of statistics from the Structural Survey; supported the decluttering of the archive.}
     \resumeItemListEnd
-  \resumeSubHeadingListEnd
-\vspace{-5pt}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Random Company, Software Development Intern}{February 2021 - April 2021}
-      {Company Name Here}{Location, WA}
-      \resumeItemListStart
-        \resumeItem{Did something cool.}
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Research Assistant}{September 2024 -- September 2025}
+    {ETH Zurich -- Public Policy Group}{Zurich, CH}
+    \resumeItemListStart
+      \resumeItem{Project: Which strategies are effective for countering online hate speech?}
+      \resumeItem{Responsibilities: supported the development of the data pipeline.}
     \resumeItemListEnd
-  \resumeSubHeadingListEnd
-\vspace{-5pt}
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Business Analyst}{April 2023 -- February 2025}
+    {Nosco Analysis AG}{Zurich, CH}
+    \resumeItemListStart
+      \resumeItem{Fintech start-up providing digitalisation solutions for Swiss pension funds and their partners in performance and risk management.}
+      \resumeItem{Responsibilities: data collection and harmonisation, product development.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Research Assistant}{March 2023 -- May 2023}
+    {University of St. Gallen -- Chair of Comparative Political Behavior}{St. Gallen, CH}
+    \resumeItemListStart
+      \resumeItem{Project: Internet ownership and control in authoritarian contexts.}
+      \resumeItem{Responsibilities: data collection, correction, and quality control.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
 %-----------EDUCATION-----------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Example High School}{2017 - 2021}
-      {Student}{Location, WA}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Master of Science in Data Science (Minor in Economics)}{2023 -- Present}
+    {University of Zurich}{Zurich, CH}
+\resumeSubHeadingListEnd
 
- \begin{itemize}[leftmargin=0.15in, label={}]
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Bachelor of Arts in Economics}{2019 -- 2023}
+    {University of St. Gallen}{St. Gallen, CH}
+  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{GPA}{: 3.69/4.0} \\
-     \textbf{AP}{: Course 1, Course 2, Course 3}
+      \textbf{Bachelor’s thesis}: Analyzed the impact of the introduction of paternity leave in Switzerland on fathers’ employment using a \textit{Difference-in-Differences} (DiD) identification strategy and the \textit{Swiss Labour Force Survey} (SLFS).
     }}
- \end{itemize}
- \vspace{-15pt}
-%-----------PROGRAMMING SKILLS-----------
-\section{Languages and Technologies} 
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-    \textbf{Skill 1}{: Subskill 1, Subskill 2, Subskill 3} \\
-     \textbf{Skill 2}{: Subskill 1, Subskill 2, Subskill 3} \\
-     \textbf{Skill 3}{: Subskill 1, Subskill 2, Subskill 3} \\
-    }}
- \end{itemize}
- \vspace{-20pt}
+  \end{itemize}
+\resumeSubHeadingListEnd
+
+%-----------ADDITIONAL QUALIFICATIONS-----------
+\section{Additional Qualifications}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Certificate in Data Science Fundamentals (DSF)}{2021 -- 2023}
+    {University of St. Gallen}{}
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Specialization in Data Analytics and Data Handling}{2019 -- 2023}
+    {University of St. Gallen}{}
+\resumeSubHeadingListEnd
+
+%-----------LANGUAGES & SKILLS-----------
+\section{Languages and Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Programming languages}: R, Python, SQL, Java, TypeScript, C \\
+    \textbf{Languages}: German (native), English (C2), French (B2)
+  }}
+\end{itemize}
+
 %-----------EXTRACURRICULAR-----------
-\section{Extracurricular}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Example Activity}{: example.} \\
-     \textbf{Example Activity}{: example.} 
-
-    }}
-
- \end{itemize}
+\section{Extracurricular Activities}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Foodsavemarkt}: Preparing vegetables left over by suppliers for major distributors to reduce food waste. \\
+    \textbf{Board Member, Student Impact}: Community engagement, planning and management of events.
+  }}
+\end{itemize}
 
 \end{document}
